@@ -58,6 +58,7 @@ input[type="checkbox"]{
 }
 .fa{
     color: red;
+    font-size: 30px !important;
 }
 /* .footer-section{
     background-color:#050B42;
