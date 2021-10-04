@@ -2,7 +2,7 @@ body, html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #2506e3;
+    background-color: #928eab;
     color: #fff;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -61,6 +61,6 @@ input[type="checkbox"]{
     font-size: 30px !important;
 }
 /* .footer-section{
-    background-color:#050B42;
-    height: 90px;
+    color:#050B42;
+    font-weight: bold;
 } */
