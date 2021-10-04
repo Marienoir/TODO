@@ -1,0 +1,61 @@
+body, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #5A41F1;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.task-container{
+    max-width: 700px;
+    margin: auto;
+}
+main{
+    padding: 30px;
+}
+.add-task-section{
+    padding:20px 40px;
+}
+.task-section{
+    padding: 20px 40px;
+}
+.task{
+    background-color: #050B42;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-family: 'Birthstone', cursive;
+}
+p{
+    margin-bottom: 0;
+}
+input[type="text"]{
+    padding: 20px;
+    width: 83%;
+    border-radius: 5px;
+    border: none;
+}
+button {
+    padding: 20px;
+    width: 12%;
+    background: #050B42;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+}
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.completed-task{
+    display: flex;
+    color: #FCE305;
+}
+.fa{
+    color: red;
+}
