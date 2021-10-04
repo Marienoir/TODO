@@ -2,9 +2,9 @@ body, html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #5A41F1;
+    background-color: #2506e3;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 .task-container{
@@ -27,20 +27,20 @@ main{
     align-items: center;
 }
 h2{
-    font-family: 'Birthstone', cursive;
+    font-size: 30px;
 }
 p{
     margin-bottom: 0;
 }
 input[type="text"]{
     padding: 20px;
-    width: 83%;
+    width: 75%;
     border-radius: 5px;
     border: none;
 }
 button {
     padding: 20px;
-    width: 12%;
+    width: 22%;
     background: #050B42;
     border: none;
     color: #fff;
@@ -49,8 +49,8 @@ button {
 input[type="checkbox"]{
     width: 30px;
     height: 30px;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .completed-task{
     display: flex;
@@ -59,3 +59,7 @@ input[type="checkbox"]{
 .fa{
     color: red;
 }
+/* .footer-section{
+    background-color:#050B42;
+    height: 90px;
+} */
