@@ -20,63 +20,24 @@
         </section>
         <section class="add-task-section">
             <div class="task-container shadow-lg">
-                <input type="text" placeholder="Add new task ...">
-                <button type="button"> + </button>
+                <input type="text" placeholder="Add new task ..." class="add-task">
+                <!-- <button type="button"> + </button> -->
+                <button class="add-button"><i class="fa fa-plus text-white fs-5"></i></button>
             </div>
         </section>
         <section class="task-section">
-            <div class="task-container">
-                
-                <div class="row">
-                    <div class="task d-flex justify-content-between">
-                        <input type="checkbox">
-                        <p class="text-white py-3 shadow-lg">Meeting with team members</p>
-                        <i class="fa fa-trash ms-auto p-2 bd-highlight" aria-hidden="true"></i>
-                    </div>
+            <!-- <div class="todo_container">
+                <ul class="todo_list"></ul>
+            </div> -->
+            <div class="ul-container">
+            </div>
+            <div class="task-container row mt-4 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <p>You have <span class="pending"></span> pending task</p>
                 </div>
-                <div class="row mt-4">
-                    <div class="task d-flex justify-content-between">
-                        <input type="checkbox">
-                        <p class="text-white py-3 shadow-lg">Read up some React Courses</p>
-                        <i class="fa fa-trash ms-auto p-2 bd-highlight" aria-hidden="true"></i>
-                    </div>
+                <div class="col-12 col-lg-6">
+                    <button type="button" class="clear-all"> CLEAR ALL</button>
                 </div>
-                <div class="row mt-4">
-                    <div class="task d-flex justify-content-between">
-                        <input type="checkbox">
-                        <p class="text-white py-3 shadow-lg">Going for Choir Practice</p>
-                        <i class="fa fa-trash ms-auto p-2 bd-highlight" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="task d-flex justify-content-between">
-                        <input type="checkbox">
-                        <p class="text-white py-3 shadow-lg">Eating lunch with Family</p>
-                        <i class="fa fa-trash ms-auto p-2 bd-highlight" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="task d-flex justify-content-between">
-                        <input type="checkbox">
-                        <p class="text-white py-3 shadow-lg">Take a swimming lesson</p>
-                        <i class="fa fa-trash ms-auto p-2 bd-highlight" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                   
-                        <div class="completed-task">
-                            <p class="fw-bold">Mark all as completed</p>
-                            <input type="checkbox">
-                        </div>
-                   
-                    <!-- <div class="col-12 col-lg-6">
-                        <div class="uncompleted-task">
-                            <p class="fw-bold">Mark all as uncompleted</p>
-                            <input type="checkbox">
-                        </div>
-                    </div> -->
-                </div>
-               
             </div>
         </section>
     </main>
@@ -85,7 +46,9 @@
             <p class="mt-5">All rights reserved. Marienoir 2021</p>
         </div>
     </footer>
+    <script src="script1.js"></script>
     <script src="https://use.fontawesome.com/d72498097d.js"></script>
-    <script src="./bootstrap/bootstrap.min.js"></script>
+    <!-- <script src="./bootstrap/bootstrap.min.js"></script> -->
 </body>
 </html>
+
